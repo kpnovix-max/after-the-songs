@@ -107,8 +107,8 @@ const chapterPlan = [
     "teaser": "What remains of a life when others begin telling it?"
   },
   {
-    "title": "The Old Man",
-    "teaser": "Some memories grow heavier with age."
+    "title": "The Boat That Stayed",
+    "teaser": "There are journeys made to return home, and journeys made to discover what home has become."
   },
   {
     "title": "The Unopened Door",
