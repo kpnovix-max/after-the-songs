@@ -1,0 +1,20 @@
+# After the Songs — Chapters 9 & 10 GitHub Pages update
+
+This is the **small, root-ready upload package** for the existing site, assuming Chapters 1–8 are already published.
+
+Repository: https://github.com/kpnovix-max/after-the-songs
+Site: https://kpnovix-max.github.io/after-the-songs/
+
+1. **Extract the ZIP**. Do not upload the archive as one file.
+2. Copy the **contents of the extracted folder** into your repository's **root**, preserving each relative path. Existing `index.html`, `chapter-8/index.html` and `scripts/build.mjs` should be replaced; the new chapter-9 and chapter-10 folders must go at the root. Add both `manuscript/*.md` files.
+3. Commit and push to `main`. If your GitHub Pages workflow builds from source, `scripts/build.mjs` will regenerate the entire site with all ten chapters automatically. If using a root-folder Pages configuration, the included HTML pages will work directly.
+4. Verify home says **10 available · 10 chapters**, chapter 8 links to chapter 9, chapter 9 links to chapter 10, and chapter 10 links to the book homepage.
+
+Paths included:
+- `index.html` — chapter 9 and 10 cards are active
+- `chapter-8/index.html` — Chapter 8 Next → Chapter 9
+- `chapter-9/index.html`, `chapter-10/index.html` — the new published reader pages
+- `manuscript/09-the-children-of-the-island.md`, `manuscript/10-the-other-song.md` — final locked manuscripts
+- `scripts/build.mjs` — complete 10-chapter build script with proper ending navigation
+
+No existing Chapters 1–7 are modified in this update. The update ZIP does not change your theme or first-novel website.
